@@ -5,8 +5,8 @@ import mongoose from "mongoose";
 import path from "path";
 import { fileURLToPath } from "url";
 
-import contactRoutes from "../routes/contactRoutes.js";
-import projectRoutes from "../routes/projectRoutes.js";
+import contactRoutes from "./routes/contactRoutes.js";
+import projectRoutes from "./routes/projectRoutes.js";
 
 dotenv.config();
 
